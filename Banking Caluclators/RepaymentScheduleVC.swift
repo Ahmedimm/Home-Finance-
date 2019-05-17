@@ -10,9 +10,9 @@ import UIKit
 
 class RepaymentScheduleVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    @IBAction func BackButtomPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
+//    @IBAction func BackButtomPressed(_ sender: Any) {
+//        dismiss(animated: true, completion: nil)
+//    }
     
     @IBOutlet weak var FinanceAmountLabel: UILabel!
     @IBOutlet weak var TermLabel: UILabel!

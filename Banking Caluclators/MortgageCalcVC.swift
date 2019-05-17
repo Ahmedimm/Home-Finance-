@@ -80,14 +80,14 @@ class MortgageCalcVC: UIViewController, UITextFieldDelegate {
     
     @IBAction func FinanceDetialsPressed(_ sender: Any) {
         
-        let sentfinaceAmount = propertyValue.text
-        performSegue(withIdentifier: "ScheduleVC", sender: sentfinaceAmount)
-        
-        let sentprofitRate = profitRate.text
-        performSegue(withIdentifier: "ScheduleVC", sender: sentprofitRate)
-        
-        let sentterm = term.text
-        performSegue(withIdentifier: "ScheduleVC", sender: sentterm)
+//        let sentfinaceAmount = propertyValue.text
+//        performSegue(withIdentifier: "ScheduleVC", sender: sentfinaceAmount)
+//        
+//        let sentprofitRate = profitRate.text
+//        performSegue(withIdentifier: "ScheduleVC", sender: sentprofitRate)
+//        
+//        let sentterm = term.text
+//        performSegue(withIdentifier: "ScheduleVC", sender: sentterm)
         
     }
     
