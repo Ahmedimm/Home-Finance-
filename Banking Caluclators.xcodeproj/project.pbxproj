@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C4D8A5114CFFD8B5DF4240A /* Pods_Home_Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DE423B713334FB85AB05CF /* Pods_Home_Finance.framework */; };
+		F12574A61ECF64B6000EB873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12574A51ECF64B6000EB873 /* AppDelegate.swift */; };
+		F12574A81ECF64B6000EB873 /* MortgageCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */; };
+		F12574AB1ECF64B6000EB873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12574A91ECF64B6000EB873 /* Main.storyboard */; };
+		F12574AE1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */; };
+		F12574B01ECF64B6000EB873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12574AF1ECF64B6000EB873 /* Assets.xcassets */; };
+		F12574B31ECF64B6000EB873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */; };
+		F191E8BB1EE17B300031626A /* RepaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */; };
+		F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC8779AED4123D6556C7F527 /* Pods-Home Finance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Finance.release.xcconfig"; path = "Target Support Files/Pods-Home Finance/Pods-Home Finance.release.xcconfig"; sourceTree = "<group>"; };
+		D5FAF8468D5A1D1AFEA02C0E /* Pods-Home Finance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Finance.debug.xcconfig"; path = "Target Support Files/Pods-Home Finance/Pods-Home Finance.debug.xcconfig"; sourceTree = "<group>"; };
+		E2DE423B713334FB85AB05CF /* Pods_Home_Finance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Finance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12574A21ECF64B6000EB873 /* Home Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Finance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12574A51ECF64B6000EB873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalcVC.swift; sourceTree = "<group>"; };
+		F12574AA1ECF64B6000EB873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Banking_Caluclators.xcdatamodel; sourceTree = "<group>"; };
+		F12574AF1ECF64B6000EB873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12574B21ECF64B6000EB873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12574B41ECF64B6000EB873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepaymentScheduleVC.swift; sourceTree = "<group>"; };
+		F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepaymentCell.swift; path = ../RepaymentCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F125749F1ECF64B6000EB873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4D8A5114CFFD8B5DF4240A /* Pods_Home_Finance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3598D010B8214FEB1893ABE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE423B713334FB85AB05CF /* Pods_Home_Finance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38B119000FF29056DBABFA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5FAF8468D5A1D1AFEA02C0E /* Pods-Home Finance.debug.xcconfig */,
+				BC8779AED4123D6556C7F527 /* Pods-Home Finance.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F12574991ECF64B6000EB873 = {
+			isa = PBXGroup;
+			children = (
+				F12574A41ECF64B6000EB873 /* Banking Caluclators */,
+				F12574A31ECF64B6000EB873 /* Products */,
+				38B119000FF29056DBABFA72 /* Pods */,
+				3598D010B8214FEB1893ABE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F12574A31ECF64B6000EB873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12574A21ECF64B6000EB873 /* Home Finance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12574A41ECF64B6000EB873 /* Banking Caluclators */ = {
+			isa = PBXGroup;
+			children = (
+				F12574A51ECF64B6000EB873 /* AppDelegate.swift */,
+				F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */,
+				F12574A91ECF64B6000EB873 /* Main.storyboard */,
+				F12574AF1ECF64B6000EB873 /* Assets.xcassets */,
+				F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */,
+				F12574B41ECF64B6000EB873 /* Info.plist */,
+				F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */,
+				F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */,
+				F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */,
+			);
+			path = "Banking Caluclators";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12574A11ECF64B6000EB873 /* Home Finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12574B71ECF64B6000EB873 /* Build configuration list for PBXNativeTarget "Home Finance" */;
+			buildPhases = (
+				E19E2A2AECDF43202EFFCBFF /* [CP] Check Pods Manifest.lock */,
+				F125749E1ECF64B6000EB873 /* Sources */,
+				F125749F1ECF64B6000EB873 /* Frameworks */,
+				F12574A01ECF64B6000EB873 /* Resources */,
+				AE9907FC88FE19F3DA3AD335 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Finance";
+			productName = "Banking Caluclators";
+			productReference = F12574A21ECF64B6000EB873 /* Home Finance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F125749A1ECF64B6000EB873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ahmed Ibrahim";
+				TargetAttributes = {
+					F12574A11ECF64B6000EB873 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = J9RAGXM66S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F125749D1ECF64B6000EB873 /* Build configuration list for PBXProject "Banking Caluclators" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F12574991ECF64B6000EB873;
+			productRefGroup = F12574A31ECF64B6000EB873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12574A11ECF64B6000EB873 /* Home Finance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12574A01ECF64B6000EB873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12574B31ECF64B6000EB873 /* LaunchScreen.storyboard in Resources */,
+				F12574B01ECF64B6000EB873 /* Assets.xcassets in Resources */,
+				F12574AB1ECF64B6000EB873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE9907FC88FE19F3DA3AD335 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Finance/Pods-Home Finance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Home Finance/Pods-Home Finance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19E2A2AECDF43202EFFCBFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Finance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F125749E1ECF64B6000EB873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F191E8BB1EE17B300031626A /* RepaymentScheduleVC.swift in Sources */,
+				F12574A81ECF64B6000EB873 /* MortgageCalcVC.swift in Sources */,
+				F12574AE1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld in Sources */,
+				F12574A61ECF64B6000EB873 /* AppDelegate.swift in Sources */,
+				F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F12574A91ECF64B6000EB873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12574AA1ECF64B6000EB873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12574B21ECF64B6000EB873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12574B51ECF64B6000EB873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F12574B61ECF64B6000EB873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12574B81ECF64B6000EB873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FAF8468D5A1D1AFEA02C0E /* Pods-Home Finance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J9RAGXM66S;
+				INFOPLIST_FILE = "Banking Caluclators/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F12574B91ECF64B6000EB873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8779AED4123D6556C7F527 /* Pods-Home Finance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J9RAGXM66S;
+				INFOPLIST_FILE = "Banking Caluclators/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home-Finance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F125749D1ECF64B6000EB873 /* Build configuration list for PBXProject "Banking Caluclators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12574B51ECF64B6000EB873 /* Debug */,
+				F12574B61ECF64B6000EB873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12574B71ECF64B6000EB873 /* Build configuration list for PBXNativeTarget "Home Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12574B81ECF64B6000EB873 /* Debug */,
+				F12574B91ECF64B6000EB873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */,
+			);
+			currentVersion = F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */;
+			path = Banking_Caluclators.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F125749A1ECF64B6000EB873 /* Project object */;
+}
