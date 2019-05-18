@@ -16,6 +16,7 @@
 		F12574B31ECF64B6000EB873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */; };
 		F191E8BB1EE17B300031626A /* RepaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */; };
 		F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */; };
+		F1ADA19D22900289005A306D /* Finance Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ADA19C22900289005A306D /* Finance Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F12574B41ECF64B6000EB873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepaymentScheduleVC.swift; sourceTree = "<group>"; };
 		F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepaymentCell.swift; path = ../RepaymentCell.swift; sourceTree = "<group>"; };
+		F1ADA19C22900289005A306D /* Finance Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Finance Details.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 				D5FAF8468D5A1D1AFEA02C0E /* Pods-Home Finance.debug.xcconfig */,
 				BC8779AED4123D6556C7F527 /* Pods-Home Finance.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -94,8 +95,17 @@
 				F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */,
 				F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */,
 				F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */,
+				F1ADA19E22900299005A306D /* Model */,
 			);
 			path = "Banking Caluclators";
+			sourceTree = "<group>";
+		};
+		F1ADA19E22900299005A306D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1ADA19C22900289005A306D /* Finance Details.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +237,7 @@
 				F12574A81ECF64B6000EB873 /* MortgageCalcVC.swift in Sources */,
 				F12574AE1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld in Sources */,
 				F12574A61ECF64B6000EB873 /* AppDelegate.swift in Sources */,
+				F1ADA19D22900289005A306D /* Finance Details.swift in Sources */,
 				F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,8 +20,8 @@ class MortgageCalcVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var totalProfit: UILabel!
 
     override func viewDidLoad() {
-
         super.viewDidLoad()
+        
         self.propertyValue.delegate = self
         self.downpayment.delegate = self
         self.additionalFinance.delegate = self
@@ -36,10 +36,13 @@ class MortgageCalcVC: UIViewController, UITextFieldDelegate {
     
     @IBAction func Calculate(_ sender: Any) {
 
+//        var financeDetails = FinanceDetails()
+
         var PV = Double(propertyValue.text!)
         if (propertyValue.text == ""){
             PV = 0
         }
+        
         var DP = Double(downpayment.text!)
         if (downpayment.text == ""){
             DP = 0

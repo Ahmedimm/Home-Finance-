@@ -390,7 +390,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="D6o-S0-4n3" firstAttribute="centerY" secondItem="TMr-yf-Tws" secondAttribute="centerY" id="APt-CM-atB"/>
                                     <constraint firstItem="D6o-S0-4n3" firstAttribute="leading" secondItem="TMr-yf-Tws" secondAttribute="leading" constant="10" id="HN0-tG-zJd"/>
@@ -498,7 +498,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="vtT-U5-2wq" secondAttribute="bottom" constant="10" id="5TU-b1-OeJ"/>
                                     <constraint firstItem="vtT-U5-2wq" firstAttribute="top" secondItem="Erd-27-H5Q" secondAttribute="top" constant="10" id="5cI-Q3-fLU"/>
