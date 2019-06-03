@@ -41,6 +41,8 @@ class RepaymentCell: UITableViewCell {
         let _: Double = FA! * (((PR!/1200) * pow((1+(PR!/1200)), T!))/(pow((1+(PR!/1200)), T!)-1))
         
     }
+    
+    
 
     
     override func awakeFromNib() {

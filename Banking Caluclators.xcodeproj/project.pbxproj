@@ -11,12 +11,12 @@
 		F12574A61ECF64B6000EB873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12574A51ECF64B6000EB873 /* AppDelegate.swift */; };
 		F12574A81ECF64B6000EB873 /* MortgageCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */; };
 		F12574AB1ECF64B6000EB873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12574A91ECF64B6000EB873 /* Main.storyboard */; };
-		F12574AE1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */; };
 		F12574B01ECF64B6000EB873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12574AF1ECF64B6000EB873 /* Assets.xcassets */; };
 		F12574B31ECF64B6000EB873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */; };
+		F154086722A27B0D00B29D11 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154086522A27B0D00B29D11 /* TableViewCell.swift */; };
+		F154086822A27B0D00B29D11 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F154086622A27B0D00B29D11 /* CellView.xib */; };
+		F154086B22A5369D00B29D11 /* FinanceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154086A22A5369D00B29D11 /* FinanceDetails.swift */; };
 		F191E8BB1EE17B300031626A /* RepaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */; };
-		F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */; };
-		F1ADA19D22900289005A306D /* Finance Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ADA19C22900289005A306D /* Finance Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		F12574A51ECF64B6000EB873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalcVC.swift; sourceTree = "<group>"; };
 		F12574AA1ECF64B6000EB873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Banking_Caluclators.xcdatamodel; sourceTree = "<group>"; };
 		F12574AF1ECF64B6000EB873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12574B21ECF64B6000EB873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12574B41ECF64B6000EB873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F154086522A27B0D00B29D11 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F154086622A27B0D00B29D11 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		F154086A22A5369D00B29D11 /* FinanceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDetails.swift; sourceTree = "<group>"; };
 		F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepaymentScheduleVC.swift; sourceTree = "<group>"; };
-		F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepaymentCell.swift; path = ../RepaymentCell.swift; sourceTree = "<group>"; };
-		F1ADA19C22900289005A306D /* Finance Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Finance Details.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,24 +86,24 @@
 		F12574A41ECF64B6000EB873 /* Banking Caluclators */ = {
 			isa = PBXGroup;
 			children = (
+				F154086922A533AB00B29D11 /* Model */,
 				F12574A51ECF64B6000EB873 /* AppDelegate.swift */,
 				F12574A71ECF64B6000EB873 /* MortgageCalcVC.swift */,
+				F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */,
+				F154086522A27B0D00B29D11 /* TableViewCell.swift */,
+				F154086622A27B0D00B29D11 /* CellView.xib */,
 				F12574A91ECF64B6000EB873 /* Main.storyboard */,
 				F12574AF1ECF64B6000EB873 /* Assets.xcassets */,
 				F12574B11ECF64B6000EB873 /* LaunchScreen.storyboard */,
 				F12574B41ECF64B6000EB873 /* Info.plist */,
-				F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */,
-				F191E8BA1EE17B300031626A /* RepaymentScheduleVC.swift */,
-				F191E8BC1EEF34FC0031626A /* RepaymentCell.swift */,
-				F1ADA19E22900299005A306D /* Model */,
 			);
 			path = "Banking Caluclators";
 			sourceTree = "<group>";
 		};
-		F1ADA19E22900299005A306D /* Model */ = {
+		F154086922A533AB00B29D11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F1ADA19C22900289005A306D /* Finance Details.swift */,
+				F154086A22A5369D00B29D11 /* FinanceDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12574B31ECF64B6000EB873 /* LaunchScreen.storyboard in Resources */,
+				F154086822A27B0D00B29D11 /* CellView.xib in Resources */,
 				F12574B01ECF64B6000EB873 /* Assets.xcassets in Resources */,
 				F12574AB1ECF64B6000EB873 /* Main.storyboard in Resources */,
 			);
@@ -234,11 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F191E8BB1EE17B300031626A /* RepaymentScheduleVC.swift in Sources */,
+				F154086722A27B0D00B29D11 /* TableViewCell.swift in Sources */,
+				F154086B22A5369D00B29D11 /* FinanceDetails.swift in Sources */,
 				F12574A81ECF64B6000EB873 /* MortgageCalcVC.swift in Sources */,
-				F12574AE1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld in Sources */,
 				F12574A61ECF64B6000EB873 /* AppDelegate.swift in Sources */,
-				F1ADA19D22900289005A306D /* Finance Details.swift in Sources */,
-				F191E8BD1EEF34FC0031626A /* RepaymentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,19 +429,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F12574AC1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */,
-			);
-			currentVersion = F12574AD1ECF64B6000EB873 /* Banking_Caluclators.xcdatamodel */;
-			path = Banking_Caluclators.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F125749A1ECF64B6000EB873 /* Project object */;
 }

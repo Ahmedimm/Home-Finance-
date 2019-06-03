@@ -9,6 +9,7 @@ import UIKit
 
 
 class MortgageCalcVC: UIViewController, UITextFieldDelegate {
+    
 
     @IBOutlet weak var propertyValue: UITextField!
     @IBOutlet weak var downpayment: UITextField!
@@ -83,15 +84,6 @@ class MortgageCalcVC: UIViewController, UITextFieldDelegate {
     
     @IBAction func FinanceDetialsPressed(_ sender: Any) {
         
-//        let sentfinaceAmount = propertyValue.text
-//        performSegue(withIdentifier: "ScheduleVC", sender: sentfinaceAmount)
-//        
-//        let sentprofitRate = profitRate.text
-//        performSegue(withIdentifier: "ScheduleVC", sender: sentprofitRate)
-//        
-//        let sentterm = term.text
-//        performSegue(withIdentifier: "ScheduleVC", sender: sentterm)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -117,35 +109,15 @@ class MortgageCalcVC: UIViewController, UITextFieldDelegate {
         let destination7 = segue.destination as! RepaymentScheduleVC
         destination7.sentTotalProfit = totalProfit.text!
         
+        let destination8 = segue.destination as! RepaymentScheduleVC
+        destination8.sentEMI = EMI.text!
         
-//        var sentFinanceAmount = segue.destination as! RepaymentScheduleVC
-//        sentFinanceAmount.sentfinanceAmount = PropertyValue.text
-        
-//        if let destination = segue.destination as? RepaymentScheduleVC{
-//            if let finance = sender as? String {
-//                 destination.sentfinanceAmount = finance
-//                }
-//           }
-//    
-//        if let destination1 = segue.destination as? RepaymentScheduleVC{
-//            if let finance1 = sender as? String {
-//                destination1.sentprofitRate = finance1
-//                }
-//            }
-//    
-//        if let destination2 = segue.destination as? RepaymentScheduleVC{
-//            if let finance2 = sender as? String {
-//                destination2.sentterm = finance2
-//        }
-//    }
 
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
-    
 }
 
 
